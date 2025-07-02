@@ -1,0 +1,16 @@
+#news-blog {
+  margin-bottom: 100px;
+}
+
+.blog-list {
+  width: 850px;
+  margin: 100px auto;
+}
+
+.blog-list .post-list > ol li {
+  border: none;
+}
+
+.blog-list .post-list > ol li div span {
+  width: auto;
+}

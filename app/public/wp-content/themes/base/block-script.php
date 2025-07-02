@@ -1,0 +1,3 @@
+<script>
+<?= $block["script"] ?>
+</script>

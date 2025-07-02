@@ -1,0 +1,24 @@
+<?php
+$blocks=[
+	[
+		"type"=>"sub-navbar",
+		"items"=>[
+			[
+				"name"=>"コンセプト",
+			],
+			[
+				"name"=>"動画でご紹介",
+			],
+			[
+				"name"=>"制作ストーリー",
+			],
+			[
+				"name"=>"バス車両の紹介",
+			],
+		],
+	],
+	[
+		"type"=>"include",
+		"file"=>"kagura-bus.html",
+	],];
+?>

@@ -1,0 +1,138 @@
+#kagura-bus {
+  margin: 0 0 -80px 0;
+}
+
+#kagura-bus .u_title {
+  border: solid 0.5px #fff;
+}
+
+.concept {
+  background-image: url("../02_img01.jpg");
+  background-size: cover;
+  color: #fff;
+  margin: -100 0 0 0;
+  padding: 100px 0;
+}
+
+.concept div {
+  font-size: 0.9em;
+}
+
+.concept div p:first-of-type {
+  font-size: 1.8em;
+}
+
+.movie {
+  background-image: url("../02_bg.png");
+  background-repeat: repeat;
+  margin: 0;
+  padding: 1px 0 100px 0;
+}
+
+.movie h2 {
+  margin: 50px 0 0 0;
+}
+
+.movie .youtube {
+  margin-top: 50px;
+}
+
+.story, .bus {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 1px 0 100px 0;
+}
+
+.story h2, .bus h2 {
+  margin: 50px 0 0 0;
+}
+
+.story h4, .bus h4 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.story div, .bus div {
+  font-size: 0.95em;
+}
+
+.story div div, .bus div div {
+  display: flex;
+  margin: 80px 20px 0 20px;
+}
+
+.story div div div, .bus div div div {
+  text-align: left;
+  display: block;
+  margin-top: 0;
+  width: 100%;
+}
+
+.story div div div .sub-title, .bus div div div .sub-title {
+  width: auto;
+  height: 36px;
+}
+
+.story div div img, .bus div div img {
+  height: 321px;
+  width: auto;
+}
+
+.bus dl {
+  margin: 5px 0 5px 10px;
+  border-bottom: solid 1px #fff;
+  padding-bottom: 5px;
+}
+
+.bus dl dt {
+  font-weight: bold;
+  float: left;
+  clear: both;
+  width: 4em;
+  padding: 5px 0;
+}
+
+.bus dl dd {
+  margin: 0 0 0 1.8em;
+  padding: 3px 0;
+}
+
+.bus .detail {
+  height: 20px;
+  width: auto;
+  margin: 10px;
+}
+
+.bus .exterior img {
+  width: 261px;
+  height: auto;
+  margin: 5px 10px;
+}
+
+.bus .exterior div:first-child {
+  width: 550px;
+  margin-left: 0;
+}
+
+.bus .exterior div dl {
+  font-size: 1.3em;
+}
+
+.bus .exterior div dl dt {
+  font-weight: normal;
+  float: left;
+  clear: both;
+  width: 8em;
+  padding: 5px 0;
+}
+
+.bus .exterior div dl dt span {
+  font-size: 0.8em;
+}
+
+.bus .exterior div dl dd {
+  margin: 0 0 0 1.8em;
+  padding: 3px 0;
+}

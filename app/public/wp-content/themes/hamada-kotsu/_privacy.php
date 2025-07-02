@@ -1,0 +1,10 @@
+<?php
+$blocks=[
+	[
+		"type"=>"sub-navbar",
+	],
+	[
+		"type"=>"include",
+		"file"=>"privacy.html",
+	],];
+?>

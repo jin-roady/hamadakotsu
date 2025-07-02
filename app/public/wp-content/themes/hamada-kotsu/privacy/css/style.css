@@ -1,0 +1,24 @@
+#privacy {
+  margin-bottom: 100px;
+}
+
+.policy {
+  text-align: left;
+  margin-top: 100px;
+}
+
+.policy p {
+  font-size: 0.95em;
+}
+
+.policy div {
+  margin-top: 50px;
+}
+
+.policy div .chapter {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #018949;
+  border-bottom: 1px solid #018949;
+  padding-bottom: 10px;
+}

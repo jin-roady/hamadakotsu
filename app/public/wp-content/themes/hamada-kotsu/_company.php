@@ -1,0 +1,21 @@
+<?php
+$blocks=[
+	[
+		"type"=>"sub-navbar",
+		"items"=>[
+			[
+				"name"=>"代表者ご挨拶",
+			],
+			[
+				"name"=>"会社概要",
+			],
+			[
+				"name"=>"沿革",
+			],
+		],
+	],
+	[
+		"type"=>"include",
+		"file"=>"company.html",
+	],];
+?>

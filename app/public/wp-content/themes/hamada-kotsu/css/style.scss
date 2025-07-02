@@ -1,0 +1,306 @@
+// Sass variables
+body{
+  background-color: white;
+}
+header{
+  display: block;
+  max-width: 2000px;
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  #logo{
+    width: 330px;
+    height: auto;
+  }
+  #top-image {
+    margin: 0 auto;
+  }
+  .head_sns {
+    text-align: right;
+    margin-top: -30px;
+    .sns_icon {
+    	width: auto;
+    	height: 30px;
+    	margin: 0 3px;
+    }
+  }
+}
+
+#menu{
+  background-color: #22272c;
+  width: 100%;
+  margin: 10px 0 0 0;
+  .head_menu, .footer_menu {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    img {
+      width: auto;
+      height: 100px;
+      margin: 0 -2px;
+    }
+  }
+}
+
+.topimage {
+  position: relative;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  p {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+     -webkit-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+     margin: 0;
+     padding: 0;
+     font-size: 1.7em;
+ }
+}
+
+#sub_navbar {
+  display: flex;
+  width: 1000px;
+  height: 50px;
+  margin: -42px auto 0 auto;
+  .breadcrumb {
+    padding: 10px 0;
+    background-color: #ffa900;
+    width: 300px;
+    font-size: 0.9em;
+    position: relative;
+    padding-right: 150px;
+    text-align: right;
+    line-height: 30px;
+    vertical-align: middle;
+    .breadcrumb-sep {
+      position: absolute;
+      right:-25px;
+      top: 0;
+      height: 100%;
+      width: 50px;
+      transform: skew(-45deg, 0deg);
+      background-color: #ffa900;
+    }
+  }
+  .sub-navigation {
+    padding: 10px 0;
+    padding-left:80px;
+    background-color: #1e891f;
+    text-align: left;
+    width: 700px;
+    white-space: nowrap;
+    font-size: 0.95em;
+    line-height: 30px;
+    vertical-align: middle;
+    a {
+      color: #fff;
+      padding: 0 20px;
+      white-space: nowrap;
+      &:before {
+        content:  url("../images/icon_submenu.png");
+        padding: 0 5px;
+      }
+    }
+  }
+}
+@media (min-width: 1000px) {
+  #sub_navbar {
+    width: 100%;
+    .breadcrumb {
+      width: calc((100% - 1000px) / 2 + 300px);
+    }
+    .sub-navigation {
+      width: calc((100% - 1000px) / 2 + 700px);
+    }
+  }
+}
+
+.footer {
+  margin-top: -10px;
+  .outer-footer {
+    padding: 5px 0 50px 0;
+    background-color: #22272c;
+    width: 100%;
+  }
+
+  .inner-footer {
+    width: 1000px;
+    margin: 0 auto;
+    #f_logo {
+      text-align: left;
+      margin: 50px 0 20px 30px;
+      img {
+        width: auto;
+        height: 40px;
+      }
+    }
+  }
+  .footer-info {
+    font-size: 0.8em;
+    text-align: left;
+    div {
+      border-right: 1px dotted;
+      &:last-of-type {
+        border: none;
+      }
+      margin-left: 30px;
+      p {
+        padding: 0;
+      }
+    }
+  }
+}
+
+#copyright {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.block {
+  text-align: center;
+}
+
+.content-width {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 100px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.u_title {
+  border: solid 0.5px #000;
+  text-align: center;
+  width: 100px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.prelude {
+    width: 850px;
+    margin: 80px auto;
+    p {
+      font-size: 0.9em;
+      text-align: left;
+    }
+}
+
+.post-list{
+  margin: 0 auto;
+  text-align: left;
+  .blog-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+  }
+  ol {
+    li {
+      div {
+        border: none;
+        img {
+          width: 111px;
+          height: 68px;
+          object-fit: cover;
+          float: left;
+          clear: both;
+        }
+        div {
+          margin-left: 130px;
+          p {
+            margin: 0;
+            line-height: 1.2em;
+        }
+          .date {
+            font-size: 0.9em;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cat_blog {
+  p {
+    color: #d27b35;
+    font-size: 1.3em;
+  }
+  hr {
+    border-color: black;
+    margin-top: 0;
+  }
+}
+
+.cat_news {
+  p {
+    color: #018949;
+    font-size: 1.3em;
+  }
+  hr {
+    border-bottom: 1px solid black;
+    margin-top: 0;
+  }
+}
+
+.newsblog {
+  h2 {
+    margin-top: 50px;
+  }
+  .newsblog-title {
+    text-align: left;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    span {
+      margin: 0 10px 0 0;
+    }
+    .cat_blog {
+      color: #d27b35;
+      font-size: 1.3em;
+    }
+    .cat_news {
+      color: #018949;
+      font-size: 1.3em;
+    }
+  }
+  .newsblog-content {
+    margin: 40px 0;
+    border-bottom: solid 1px;
+    img {
+      margin: 40px auto 0 auto;
+      max-width: 700px;
+    }
+    .text {
+      max-width: 700px;
+      margin: 40px auto;
+      div {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.page-navi{
+  span,a{
+    line-height: 1.2em;
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+    color:white;
+    display: inline-block;
+    padding: 0.3em 0.7em;
+    margin: 0 5px;
+    border-radius: 3px;
+  }
+  .current {
+    background-color: #1e891f;
+  }
+}

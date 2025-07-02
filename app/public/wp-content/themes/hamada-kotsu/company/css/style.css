@@ -1,0 +1,92 @@
+@charset "UTF-8";
+#company {
+  margin-bottom: 100px;
+}
+
+.greeting {
+  margin: 100px 0;
+  display: flex;
+}
+
+.greeting div {
+  text-align: left;
+}
+
+.greeting div:first-child {
+  width: 600px;
+  margin-right: 30px;
+}
+
+.greeting div p {
+  font-size: 0.9em;
+  line-height: 36px;
+  color: #231815;
+  margin-top: 0;
+}
+
+.greeting div img {
+  height: 368px;
+  width: auto;
+}
+
+.greeting div .ceo {
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.greeting div .ceo span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  letter-spacing: 8px;
+}
+
+.company-width {
+  width: 655px;
+  margin: 0 auto;
+}
+
+.company-width div {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.overvew, .enkaku {
+  margin: 50px 0;
+}
+
+.overvew h2, .enkaku h2 {
+  margin: 0;
+  padding-top: 60px;
+}
+
+.overvew {
+  background-image: url("../04_bg.png");
+  background-repeat: repeat;
+}
+
+table {
+  font-size: 0.95em;
+  padding: 5px 170px 10px 170px;
+  width: 100%;
+}
+
+table tr td {
+  border-bottom: solid 1px #231815;
+  vertical-align: top;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+table tr td:first-of-type {
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+table tr td:last-of-type {
+  padding-left: 30px;
+  padding-right: 40px;
+}

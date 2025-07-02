@@ -1,0 +1,24 @@
+<?php
+$blocks=[
+	[
+		"type"=>"sub-navbar",
+		"items"=>[
+			[
+				"name"=>"大型バス",
+			],
+			[
+				"name"=>"中型バス",
+			],
+			[
+				"name"=>"小型バス",
+			],
+			[
+				"name"=>"マイクロバス",
+			],
+		],
+	],
+	[
+		"type"=>"include",
+		"file"=>"lineup.html",
+	],];
+?>

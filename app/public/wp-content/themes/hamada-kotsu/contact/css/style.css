@@ -1,0 +1,124 @@
+#contact {
+  margin-bottom: 100px;
+}
+
+#contact .border_contact {
+  width: 850px;
+  border: none;
+  border-bottom: solid 1px #018949;
+  clear: both;
+}
+
+.contact-width {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.contact-width h4 {
+  margin: 30px 0 3px 0;
+  color: #018949;
+  text-align: left;
+}
+
+.tel_fax {
+  margin-bottom: 80px;
+}
+
+.tel_fax div {
+  text-align: left;
+}
+
+.tel_fax div:first-of-type p {
+  font-size: 34px;
+  font-weight: bold;
+  color: #d27b35;
+  line-height: 35px;
+  float: left;
+  border-right: dotted 2px #018949;
+  margin: 10px 0 15px 0;
+  padding: 5px 20px 10px 0;
+  clear: both;
+}
+
+.tel_fax div:last-of-type p {
+  margin: 0 0 5px 350px;
+  padding: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.tel_fax div:last-of-type p:first-of-type {
+  padding-top: 15px;
+}
+
+.form {
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.form form {
+  width: 850px;
+  margin: auto;
+}
+
+.form form div {
+  margin-bottom: 50px;
+}
+
+.form form p {
+  line-height: 1em;
+  margin-top: 30px;
+}
+
+.form form dl {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.form form dl dt {
+  float: left;
+  width: 13em;
+  height: 3.5em;
+  clear: both;
+}
+
+.form form dl dd {
+  padding-left: 13em;
+  padding-bottom: 5px;
+  font-size: 1em;
+}
+
+.form form label {
+  width: 690px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.form form input {
+  max-width: none;
+  height: 30px;
+}
+
+.form form input[type="submit"] {
+  display: block;
+  margin: auto;
+  border: none;
+  width: 245px;
+  height: 43px;
+  background-color: #018949;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.5em 4em;
+  margin-top: 3em;
+}
+
+.form .req {
+  color: red;
+  font-size: 0.8em;
+}
+
+.submit-msg a {
+  color: #f01d4f;
+  text-decoration: underline;
+}

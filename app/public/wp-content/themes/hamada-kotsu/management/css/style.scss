@@ -1,0 +1,150 @@
+#management {
+  margin-bottom: 100px;
+}
+
+.list_l {
+  color: #333333;
+  text-align: left;
+  li {
+    list-style: decimal;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  div {
+    margin-bottom: 50px;
+    font-size: 14px;
+    a {
+      img {
+        margin-top:20px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    p {
+      font-weight: normal;
+    }
+    .strong {
+      font-weight: bold;
+    }
+  }
+}
+.objective {
+  table{
+    text-align: center;
+    font-size: 14px;
+    width: 520px;
+    tr{
+      &:first-child {
+        background-color: #7f7f7f;
+        color: #fff;
+      }
+      &:nth-child(n+2) {
+        td:first-child {
+          background-color: #ededed;
+        }
+      }
+      td{
+        border: 1px solid #000;
+        padding: 10px 25px 10px 25px;
+        &:first-of-type {
+          text-align: left;
+        }
+        span {
+          font-size: 11px;
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .training_pc {
+    .training_title {
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .company_name {
+      text-align: right;
+      font-size: 1.2em;
+    }
+    table{
+      font-size: 0.9em;
+      width: 100%;
+      text-align: center;
+      tr{
+        &:first-child {
+          background-color: #ededed;
+          white-space: nowrap;
+          td{
+            &:first-child {
+              background-color: #fff;
+              padding: 10px 5px;
+            }
+          }
+        }
+        td{
+          border: 1px solid #000;
+          padding: 5px;
+          &:first-of-type {
+            width: 5em;
+          }
+          &:nth-child(4),&:nth-child(5) {
+            text-align: left;
+            p {
+              margin: 0 0 0 1em;
+              text-indent: -1em;
+            }
+          }
+          span {
+            font-size: 11px;
+            letter-spacing: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.content-width {
+  max-width: 100%;
+  width: 1000px;
+}
+
+.training_sp {
+  display: none;
+}
+
+@media (max-width: 1000px){
+  .training_pc {
+    display: none;
+  }
+  .training_sp {
+    display: inherit;
+  }
+}
+
+
+.list_m {
+  margin-left: 15px;
+  li {
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #333333;
+    margin-bottom: 5px;
+    .text_green {
+      color: #1e891f;
+    }
+    .text_yellow {
+      color: #ffaf11;
+    }
+    .text_red {
+      color: #f4361a;
+    }
+  }
+}

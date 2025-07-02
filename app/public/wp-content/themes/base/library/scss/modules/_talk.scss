@@ -1,0 +1,96 @@
+//main:../style.scss
+
+$titile-bkcolor: #008500;
+$title-color: white;
+$board-bkcolor: silver;
+$left-color: white;
+$wight-color: #00b800;
+
+.talk{
+  >div{
+    width: 100%;
+  }
+  .title{
+    text-align: center;
+    line-height: 3em;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    &:after{
+      content: "V";
+      float: right;
+      clear: both;
+      transform: scale(2, 0.8);
+      font-family: sans-serif;
+      margin-right: 2em;
+      font-size: 1.2em;
+    }
+    background-color: $titile-bkcolor;
+    color: $title-color;
+  }
+  .board{
+    padding: 30px;
+    justify-content: normal;
+    .message{
+      margin-bottom: 1.5em;
+      justify-content: normal;
+      &.right{
+        flex-direction: row-reverse;
+      }
+
+      .icon{
+        max-width: 60px;
+      }
+      .text {
+        margin: 0 20px;
+        max-width: 75%;
+        .balloon{
+          position: relative;
+          display: inline-block;
+          background-color: white;
+          border-radius: 10px;
+          padding: 12px;
+        }
+      }
+    }
+
+    background-color: $board-bkcolor;
+  }
+
+  .left{
+    .text{
+      text-align: left;
+    }
+    .balloon{
+      &:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        left: -19px;
+        border: 8px solid transparent;
+        border-right: 18px solid white;
+      }
+    }
+  }
+  .right{
+    .text{
+      text-align: right;
+    }
+    .balloon{
+      text-align: left;
+      >div{
+        display: inline-block;
+      }
+
+      &:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        right: -19px;
+        border: 8px solid transparent;
+        border-left: 18px solid white;
+      }
+    }
+  }
+}

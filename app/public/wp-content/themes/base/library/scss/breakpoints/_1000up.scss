@@ -1,0 +1,42 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+//TSP-ADD[S]
+.wrap {
+  //TSP-CHG
+  //width: 1040px;
+  width: 1000px;
+}
+
+#slider {
+  .slick-slide {
+    img {
+      width: 1000px;
+      margin: 0 auto;
+    }
+  }
+
+  .slick-prev
+  {
+    left: -25px;
+  }
+
+  .slick-next
+  {
+    right: -25px;
+  }
+
+  #slide-nav {
+    #slide-nav-inner {
+      width: 1000px;
+    }
+  }
+}
