@@ -1,6 +1,0 @@
-[17-Apr-2025 11:06:29] NOTICE: fpm is running, pid 616
-[17-Apr-2025 11:06:29] NOTICE: ready to handle connections
-[25-Apr-2025 11:19:48] WARNING: [pool www] child 634 said into stderr: "sh: : command not found"
-[25-Apr-2025 13:39:28] NOTICE: Terminating ...
-[25-Apr-2025 13:39:28] NOTICE: Terminating ...
-[25-Apr-2025 13:39:28] NOTICE: exiting, bye-bye!
